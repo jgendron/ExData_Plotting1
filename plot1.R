@@ -36,6 +36,7 @@ for (i in 3:9){
 #----------------
 #Plot1 - open device, plot, then close device
 #----------------
-png(filename = "plot1.png", width = 480, height = 480, units = "px", pointsize = 12, bg = "transparent")
+png(filename = "plot1.png", width = 480, height = 480, units = "px", pointsize = 11.75, bg = "transparent")
 hist(datarel$globalactivepower,main="Global Active Power",col="red", xlab="Global Active Power (kilowatts)")
 dev.off()
+
