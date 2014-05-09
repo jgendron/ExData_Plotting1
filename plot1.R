@@ -1,4 +1,4 @@
-# Assumption: you have set up a proper working directory
+# NOTE: set up a proper working directory
 # Download file from UCI Machine Learning Repository and unzip
 url <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 download.file(url, "powerdata.zip", mode="wb")
