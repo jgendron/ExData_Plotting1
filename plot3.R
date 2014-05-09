@@ -36,7 +36,7 @@ for (i in 3:9){
 #----------------
 #Plot3 - open device, plot, then close device
 #----------------
-png(filename = "plot3.png", width = 480, height = 480, units = "px", pointsize = 12, bg = "transparent")
+png(filename = "plot3.png", width = 480, height = 480, pointsize=11.8, units = "px", bg = "transparent")
 plot(datarel$DTuse, datarel$submetering1, type = "l", xlab = "", 
      ylab = "Energy sub metering", col="black")
 lines(datarel$DTuse, datarel$submetering2, type = "l", col="red")
