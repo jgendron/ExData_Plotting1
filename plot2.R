@@ -37,8 +37,7 @@ for (i in 3:9){
 #Plot2 - open device, plot, then close device
 #----------------
 
-png(filename = "plot2.png", width = 480, height = 480, units = "px",
-    pointsize = 12, bg = "transparent")
+png(filename = "plot2.png", width = 480, height = 480, pointsize=11.75, units = "px", bg = "transparent")
 plot(datarel$DTuse, datarel$globalactivepower,  type = "l", xlab = "", 
      ylab = "Global Active Power (kilowatts)")
 dev.off()
